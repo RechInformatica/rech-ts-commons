@@ -1,0 +1,25 @@
+{
+  "name": "rech-ts-commons",
+  "version": "1.0.0",
+  "description": "Rech Commons package for TypeScript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RechInformatica/rech-ts-commons.git"
+  },
+  "keywords": [
+    "rech",
+    "typescript",
+    "ts",
+    "commons"
+  ],
+  "author": "Rech Informatica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RechInformatica/rech-ts-commons/issues"
+  },
+  "homepage": "https://github.com/RechInformatica/rech-ts-commons#readme"
+}
