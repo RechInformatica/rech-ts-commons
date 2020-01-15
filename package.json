@@ -2,9 +2,11 @@
   "name": "rech-ts-commons",
   "version": "1.0.0",
   "description": "Rech Commons package for TypeScript language",
-  "main": "index.js",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "compile" : "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,11 @@
     "ts",
     "commons"
   ],
+  "dependencies": {
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
   "author": "Rech Informatica",
   "license": "MIT",
   "bugs": {
