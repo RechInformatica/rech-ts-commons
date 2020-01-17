@@ -5,8 +5,9 @@
   "main": "out/index.js",
   "types": "out/index.d.ts",
   "scripts": {
-    "test": "test",
-    "compile": "tsc"
+    "test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
+    "compile": "npm run tslint && tsc -p ./",
+    "tslint": "tslint --project tsconfig.json --config tslint.json"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,16 @@
     "commons"
   ],
   "dependencies": {
+    "@types/chai": "4.1.6",
+    "chai": "4.2.0",
     "nodemon": "^1.18.4",
     "ts-node": "^7.0.1",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "tslint": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.48",
+    "mocha": "^5.2.0"
   },
   "author": "Rech Informatica",
   "license": "MIT",
