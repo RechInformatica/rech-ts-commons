@@ -1,6 +1,6 @@
 {
   "name": "rech-ts-commons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rech Commons package for TypeScript language",
   "main": "out/index.js",
   "types": "out/index.d.ts",
