@@ -1,6 +1,6 @@
 {
   "name": "rech-ts-commons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rech Commons package for TypeScript language",
   "main": "out/index.js",
   "types": "out/index.d.ts",
@@ -19,15 +19,11 @@
     "ts",
     "commons"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "typescript": "^3.0.3",
+    "tslint": "^5.14.0",
     "@types/chai": "4.1.6",
     "chai": "4.2.0",
-    "nodemon": "^1.18.4",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.3",
-    "tslint": "^5.14.0"
-  },
-  "devDependencies": {
     "@types/mocha": "^2.2.48",
     "mocha": "^5.2.0"
   },

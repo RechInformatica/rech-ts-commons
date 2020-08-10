@@ -1,3 +1,5 @@
 node_modules
 out
 PSPadBK
+tsconfig.tsbuildinfo
+package-lock.json
